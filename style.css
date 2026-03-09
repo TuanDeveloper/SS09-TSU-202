@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.box {
+  /* margin: auto; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap-reverse;
+  gap: 30px;
+}
+
+.box1 {
+  background-color: #b83636;
+  width: 100px;
+  height: 100px;
+
+}
+
+.box2 {
+  background-color: #36c1ae;
+  width: 100px;
+  height: 100px;
+
+}
+
+.box3 {
+  background-color: #24d421;
+  width: 100px;
+  height: 100px;
+}
